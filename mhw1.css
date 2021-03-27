@@ -9,13 +9,21 @@ body{
     background-position: center;
     height: 350px;
     border: 7px solid #FFDEAC;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-blend-mode: darken;
     position:relative;
     display:flex;
     align-items: center;
     text-align: left;
     justify-content: center;
+}
+
+#overlay {
+  background-color:
+    rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
 }
 
 @media(max-width:500px){
