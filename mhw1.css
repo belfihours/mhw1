@@ -30,6 +30,7 @@ body{
     position:absolute;
     font-size: 25px;
     color:white;
+    line-height: 11px;
     margin-left:15px;
     bottom: 0px;
     left:10px;
@@ -54,6 +55,7 @@ body{
       color: #212121;
       background-color: white;
       border-radius: 10px;
+       text-transform: uppercase;
 
   }
 
@@ -179,15 +181,24 @@ body{
 
   @media(max-width: 900px){
 
+    main{
+      justify-content: space-around;
+    }
+
     main .button{
       padding:10;
     }
     main span{
-      font-size:100%;
+      font-size:16px;
     }
   }
 
   @media(max-width: 500px){
+
+    main{
+      justify-content: space-around;
+    }
+
     main .button{
       margin: 10px;
       padding:10px;
@@ -195,7 +206,6 @@ body{
     }
     main span{
       font-size:13px;
-      
     }
   }
 
@@ -248,6 +258,8 @@ body{
     height: 300px;
     object-fit: cover;
     max-width: none;
+    border: 12px solid #212121;
+    margin:-4px;
   }
 }
 
@@ -255,6 +267,10 @@ body{
 #info{
   margin-left: 7%;
   margin-bottom: 50px;
+}
+
+#info span{
+  text-transform: uppercase;
 }
 
 @media(max-width:900px){
